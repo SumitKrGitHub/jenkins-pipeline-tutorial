@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Run the static analysis to the code' 
+                echo 'This is Sumit kumar making change in jenkins file' 
             }
         }
         stage('Compile') {
@@ -13,22 +13,22 @@ pipeline {
         }
         stage('Security Check') {
             steps {
-                echo 'Run the security check against the application' 
+                echo 'To make sure changes are visible in jenkins changes ' 
             }
         }
         stage('Run Unit Tests') {
             steps {
-                echo 'Run unit tests from the source code' 
+                echo 'It is fun' 
             }
         }
         stage('Run Integration Tests') {
             steps {
-                echo 'Run only crucial integration tests from the source code' 
+                echo 'to learn new technologies' 
             }
         }
         stage('Publish Artifacts') {
             steps {
-                echo 'Save the assemblies generated from the compilation' 
+                echo 'Bye' 
             }
         }
     }
